@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 
-const Member = props => {
+const Person = props => {
 
     const [person, setPerson] = useState(props.person)
 
-    const [editing, setPerson] = useState(false)
+    const [editing, setEditing
+    ] = useState(false)
 
-    const handleChange = e => setMember({ ...person, [e.target.name]: e.target.value })
+    const handleChange = e => setPerson({ ...person, [e.target.name]: e.target.value })
 
     console.log(person)
 
@@ -51,4 +52,4 @@ const Member = props => {
 
 }
 
-export default person
+export default Person

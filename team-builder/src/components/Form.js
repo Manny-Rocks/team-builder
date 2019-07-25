@@ -36,7 +36,7 @@ const Form = props => {
 
             </div>
 
-            <button>Add Member</button>
+            <button className ='button1'>Add Member</button>
         </form >
     )
 }
